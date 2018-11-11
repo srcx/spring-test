@@ -6,6 +6,11 @@ Purpose
 
 Maintains list of MySQL databases and allows to get some data and metadata for them.
 
+How to use
+==========
+
+Run `cz.srnet.spring.test.Application`. Configure Spring to use different DB than H2 if you want to have truly persistent storage. There is no UI only REST API.
+
 REST API
 ========
 
@@ -104,6 +109,7 @@ Data preview:
 Missing
 =======
 
+Unsorted list of missing or problematic things:
 - nullability annotations (had them, but Eclipse started to invent some in Spring and it got messy)
 - more testing
 - integration tests
@@ -114,4 +120,6 @@ Missing
 - better REST API docs
 - UI
 - better architecture (too tied to Spring, naked objects)
+- connection pooling
+- connection clean-up
 - and for sure many more...
