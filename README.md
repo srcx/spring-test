@@ -112,6 +112,7 @@ Missing
 Unsorted list of missing or problematic things:
 - nullability annotations (had them, but Eclipse started to invent some in Spring and it got messy)
 - more testing
+- unit tests of table part of REST API 
 - integration tests
 - authentication and authorization
 - table name validation (names are used directly in SQL statements)
